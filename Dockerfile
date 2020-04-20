@@ -1,4 +1,4 @@
-FROM mediawiki:stable
+FROM mediawiki:legacylts
 
 RUN apt-get update && \
     apt-get install -y libldap2-dev --no-install-recommends && \
